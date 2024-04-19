@@ -30,7 +30,7 @@
     font-size: 35px;
     color: brown;
 }
-nav ul {
+nav > ul {
     list-style: none;
     display: flex;
     margin: 0;
@@ -44,12 +44,12 @@ nav ul li a {
     margin-left: 10px;
     text-decoration: none;
     gap: 2px;
-    color: rgb(158, 53, 53);
+    color: brown;
     padding: 8px 16px; 
-    transition: background-color 0.3s ease; 
+  
 }
 #head-menu nav ul li a:hover {
-    background-color: rgb(158, 53, 53); 
+    background-color: brown;
     color: #fff; 
 }
 #sub-menu nav ul li a {
@@ -63,13 +63,13 @@ nav ul li a {
     margin-left: 10px;
     text-decoration: none;
     gap: 2px;
-    color: rgb(158, 53, 53);
+    color: brown;
     padding: 8px 16px; 
-    transition: background-color 0.3s ease; 
+   
 }
 
 #login a:hover,
 #promotion a:hover {
-    background-color: rgb(158, 53, 53); 
+    background-color: brown; 
     color: #fff; 
 }
