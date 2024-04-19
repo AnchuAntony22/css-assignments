@@ -8,4 +8,68 @@
     align-items
  */
 
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9eaea;
+    padding: 0 30px; 
+}
+#login-promotion {
+    display: flex;
+    gap: 10px; 
+}
+#sub-menu {
+    justify-content: space-around;
+    background-color: #444; 
+    padding: 0 0px; 
+  
+}
+#site-brand{
+    margin-left: 200px;
+    font-size: 35px;
+    color: brown;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center; 
+    gap: 25px; 
+    align-items: center;
+    
+}
+nav ul li a {
+    margin-left: 10px;
+    text-decoration: none;
+    gap: 2px;
+    color: rgb(158, 53, 53);
+    padding: 8px 16px; 
+    transition: background-color 0.3s ease; 
+}
+#head-menu nav ul li a:hover {
+    background-color: rgb(158, 53, 53); 
+    color: #fff; 
+}
+#sub-menu nav ul li a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white; 
+    font-size: 15px;
+}
+#login a,
+#promotion a {
+    margin-left: 10px;
+    text-decoration: none;
+    gap: 2px;
+    color: rgb(158, 53, 53);
+    padding: 8px 16px; 
+    transition: background-color 0.3s ease; 
+}
 
+#login a:hover,
+#promotion a:hover {
+    background-color: rgb(158, 53, 53); 
+    color: #fff; 
+}
